@@ -1,0 +1,151 @@
+body {
+    font-family: Helvetica;
+}
+
+h1  {
+    background-color: #000;
+    color: red
+    
+}
+
+h2 {
+    background-color: #22e8dc;
+    color: rgb(160, 238, 179)
+}
+/*
+p {
+    
+    color: blue;
+    background-color: yellowgreen;
+}
+a {
+    color: pink;
+    background-color: yellow;
+}
+*/
+/* la forma correta en la cual enlaces un id es css es usando el # */
+ /* Un id se usa cuando se tiene un estilo especifico para un solo elemento*/
+#contenedor-uno  {
+    background-color: #09a;
+}
+
+/*Para poder compartir estilos*/
+
+#contenedor-dos  {
+    background-color: yellow;
+}
+/* para poder compartir los estilos debemos usar clases 'class'*/
+/* para poder acceder a un elemento que tiene class usamos el . */
+.contenedor-principal {
+    background-color: violet;
+    padding: 30px;
+}
+
+.btn-ingresar {
+    background-color: rgb(14, 139, 255);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-registro {
+    font-size: 25px;
+    background-color:red;
+}
+
+.contenedor-form {
+    /* border que cubra */
+    border: 3px solid rgb(255, 136, 0);
+    border-radius: 8px;
+  }
+  
+  .contenedor-interno-form {
+    padding: 20px;
+    /* left: izquierda */
+    /* center: centro */
+    /* right: derecha */
+    /* esto lo de hace de forma horizontal */
+    text-align: center;
+  }
+  
+  .titulo-form {
+    color: rgb(14, 139, 255);
+    background-color: #fff;
+  }
+  
+  .input-form {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px #000 solid;
+    width: 400px;
+  }
+  
+  /* retos para el profe 
+  quiero que el iput del codigo 
+  mida 100px */
+  
+  .input-codigo {
+    width: 100px;
+  }
+  
+  .input-numero {
+    width: 275px;
+  }
+  
+  /* reto para ustedes denle estilos
+  al boton */
+  
+  .btn-crear-usuario {
+    background-color: rgb(248, 156, 35);
+    color: #000;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+  }
+
+/* PSEUDOCLASES*/
+/* Los elementos tienen propiedades */
+
+.btn-ingresar-usuario:hover {
+    background-color:  rgb(150, 218, 111);
+}
+    
+ .btn-ingresar:hover {
+     background-color: #f01;
+     color: #000;
+     /*quita el subrayado*/
+     text-decoration: none;
+     padding: 50px;
+ }
+
+ /* los elementos como e tiene pseudoclases como
+ link
+ visited 
+ hover */
+
+ /*  estas pseudoclases aplican para todos elementos de html */
+/* 
+ div:hover {
+     background-color:  #f01;
+ } */
+
+ .contenedor-interno-form h1 {
+     border: 2px solid #000;
+ }
+ h1:first-child {
+     color: purple;
+ }
+
+ input:first-of-type {
+     color: #f01
+ }
+
+ /* first-child *?
+ /* bsuca el primero elemento */
+ /* <h1> </h1> */
+ /* <h1> </h1> */
+ /* <h1> </h1> */
+ /* <h1> </h1> */
+ /* <h1> </h1> */
+ 
